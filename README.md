@@ -12,10 +12,9 @@ Reports currently run directly on transaction logs making them slow and inconsis
 - Branch-Level Reporting (monitor performance & engagement)
 - Churn Signals (recency & frequency tracking)
 - Time-Based Analysis (MoM, QoQ, YoY comparisons)
-
-## Star Schema Design
-[palladium_bank_star_schema](
-
+- 
+## Schema Diagram
+![Schema Diagram](palladium_bank_star_schema.svg)
 ### Fact Table
 - **fact_transactions** — one row per transaction (grain)
   - txn_key, txn_id (degenerate dimension), amount, balance_after
