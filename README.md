@@ -14,7 +14,7 @@ Reports currently run directly on transaction logs making them slow and inconsis
 - Time-Based Analysis (MoM, QoQ, YoY comparisons)
 
 ## Star Schema Design
-[palladium_bank_star_schema](file:///C:/Users/HP/OneDrive/Documents/HNG14-DA-S3B/palladium_bank_star_schema.svg)
+[palladium_bank_star_schema](
 
 ### Fact Table
 - **fact_transactions** — one row per transaction (grain)
